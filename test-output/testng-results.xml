@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18699" started-at="2017-09-23T04:42:29Z" finished-at="2017-09-23T04:42:47Z">
+  <suite name="Default suite" duration-ms="5987" started-at="2017-09-23T05:36:36Z" finished-at="2017-09-23T05:36:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18699" started-at="2017-09-23T04:42:29Z" finished-at="2017-09-23T04:42:47Z">
-      <class name="com.tele.metric.test.smoke.TestLoginUS156">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tele.metric.test.smoke.TestLoginUS156@68c4039c]" name="setUp" is-config="true" duration-ms="8349" started-at="2017-09-23T10:12:29Z" finished-at="2017-09-23T10:12:37Z">
+    <test name="Default test" duration-ms="5987" started-at="2017-09-23T05:36:36Z" finished-at="2017-09-23T05:36:42Z">
+      <class name="com.tele.metric.test.regression.TestVerifyTitleUS158">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tele.metric.test.regression.TestVerifyTitleUS158@68c4039c]" name="setUp" is-config="true" duration-ms="5889" started-at="2017-09-23T11:06:36Z" finished-at="2017-09-23T11:06:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLoginFailTC_212()[pri:0, instance:com.tele.metric.test.smoke.TestLoginUS156@68c4039c]" name="testLoginFailTC_212" duration-ms="1238" started-at="2017-09-23T10:12:37Z" finished-at="2017-09-23T10:12:38Z">
+        <test-method status="PASS" signature="testVerifyTitleTC510()[pri:0, instance:com.tele.metric.test.regression.TestVerifyTitleUS158@68c4039c]" name="testVerifyTitleTC510" duration-ms="70" started-at="2017-09-23T11:06:42Z" finished-at="2017-09-23T11:06:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginFailTC_212 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tele.metric.test.smoke.TestLoginUS156@68c4039c]" name="tearDown" is-config="true" duration-ms="7" started-at="2017-09-23T10:12:38Z" finished-at="2017-09-23T10:12:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tele.metric.test.smoke.TestLoginUS156@68c4039c]" name="setUp" is-config="true" duration-ms="5221" started-at="2017-09-23T10:12:38Z" finished-at="2017-09-23T10:12:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLoginSuccess_TC211()[pri:0, instance:com.tele.metric.test.smoke.TestLoginUS156@68c4039c]" name="testLoginSuccess_TC211" duration-ms="3857" started-at="2017-09-23T10:12:43Z" finished-at="2017-09-23T10:12:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginSuccess_TC211 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tele.metric.test.smoke.TestLoginUS156@68c4039c]" name="tearDown" is-config="true" duration-ms="7" started-at="2017-09-23T10:12:47Z" finished-at="2017-09-23T10:12:47Z">
+        </test-method> <!-- testVerifyTitleTC510 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tele.metric.test.regression.TestVerifyTitleUS158@68c4039c]" name="tearDown" is-config="true" duration-ms="8" started-at="2017-09-23T11:06:42Z" finished-at="2017-09-23T11:06:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.tele.metric.test.smoke.TestLoginUS156 -->
+      </class> <!-- com.tele.metric.test.regression.TestVerifyTitleUS158 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
